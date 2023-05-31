@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/imagens/plano-fundo3.png);
+    background-color: rgba(0, 0, 0, 0.831);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .wallet {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .wallet button {
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #ff007f, #007fff);
+    border-image-slice: 1;
+    background-color: black;
+  }
+
+  .conteudo{
+    margin-top:30px;
+    background-color: rgb(8, 6, 17);
+    width: 800px;
+    height: 610px;
+    border-radius: 10px;
+  }
+
+  .conteudo form {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .conteudo h2{
+    color: white;
+    text-align: center;
+  }
+  
+  .conteudo label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .conteudo input {
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 7px;
+  }
+  .enviar input {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+    background-image: linear-gradient(to right, #007fff, #ff007f);
+}
+
+  .enviar input:hover {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #007fff, #ff007f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #ff007f, #007fff);
+    border-image-slice: 1;
+  }
+  .saldo input{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    color: white;
+    background-image: linear-gradient(to right, #007fff, #ff007f);
+  }
+  

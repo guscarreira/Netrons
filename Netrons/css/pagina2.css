@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/imagens/plano-fundo2.jpeg);
+  background-color: rgba(0, 0, 0, 0.923);
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.carteira{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.carteira button {
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 3px solid;
+  border-image: linear-gradient(to right, #ff007f, #007fff);
+  border-image-slice: 1;
+  background-color: black;
+    
+}
+
+.botao {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.botao a {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 20px;
+  transition: transform 0.8s ease;
+}
+.botao a:hover {
+  transform: rotate(360deg);
+}
